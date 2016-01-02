@@ -4,7 +4,7 @@ cd $(dirname $0)/..
 
 mkdir -p data
 
-git pull
+git pull > /dev/null
 
 function updateCsv {
   sourcefile=$1
